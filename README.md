@@ -1,17 +1,23 @@
 # spring-security
 
 1. 
-Authenication URL :http://localhost:8080/authenticate
-Body :
 
+Authenication URL :http://localhost:8080/authenticate
+
+
+Body :
 {
   "username":"foo",
   "password":"foo"
 }
 
+
 Response : 
+
 {
+
 "jwt": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJmb28iLCJleHAiOjE1NzM5MTczNTQsImlhdCI6MTU3MzkxNzM1NH0.4A12wshGJ3-mX464QvcR_jHtKZz7izrniuka1iJ01OQ"
+
 }
 
 2. Resource URL : http://localhost:8080/hello
